@@ -11,6 +11,4 @@
 #
 #this new command list all the running process
 #and searches for the process that contains mysql string
-ps -ef | grep mysql
-
-
+ps -ef | grep mysql | grep root
